@@ -1,5 +1,9 @@
 ##Create an Empty class named 'Person'
 
+Class Test
+
+end
+
 
 
 
@@ -11,13 +15,18 @@
 ##Define three properties on that class 'name','age','birthdate'
 
 
+Class Test
+
+def name
+def age
+def birthdate
+end
 
 
 
 
 
-
-
+# I understand that these are methods, I am unsure how to create just the properties alone.
 
 
 
@@ -33,8 +42,12 @@
 =begin
 
 
+Class Test
 
-
+def name
+def age
+def birthdate
+end
 
 
 
@@ -49,7 +62,7 @@
 =begin
 
 
-
+This will create a new object with the properties of class person.
 
 
 
@@ -62,8 +75,10 @@
 
 ##Create an initializer method that allows you do Person.new 'Amy Smith' , which initializes the  Person's name property
 
-
-
+Class Person
+def initialize
+  @name = 'Amy Smith'
+end
 
 
 
@@ -74,7 +89,13 @@
 
 ##Write a method that outputs the value of the self keyword to the console
 
+Class Test
 
+def self.who_am_I
+  puts 'I am an object in of the test class'
+end
+
+  Class.who_am_I
 
 
 
@@ -90,7 +111,7 @@
 
 
 
-
+I had to google this but the answer is not surprising, the very base definition is that "self" gives you access to the current object
 
 
 
@@ -102,7 +123,7 @@
 ##Explain what object instantiation means:
 =begin
 
-
+The stamping out of an object from a class, an object must be instantiated before being pushed to the database but does not necessarliy need to wind up there. 
 
 
 
