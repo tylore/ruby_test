@@ -123,7 +123,7 @@ I had to google this but the answer is not surprising, the very base definition 
 ##Explain what object instantiation means:
 =begin
 
-The stamping out of an object from a class, an object must be instantiated before being pushed to the database but does not necessarliy need to wind up there. 
+The stamping out of an object from a class, an object must be instantiated before being pushed to the database but does not necessarliy need to wind up there.
 
 
 
